@@ -1,0 +1,33 @@
+.sidebar {
+  width: 300px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.card.active {
+  border: 2px solid #007bff;
+  background-color: #e7f1ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 14px;
+  
+}
+.button{
+    color: #007bff;
+}
